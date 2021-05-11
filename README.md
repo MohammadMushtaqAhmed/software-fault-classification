@@ -1,1 +1,8 @@
 # Software Fault-Prone Module Classification Using Learning Automata based Deep Neural Networks
+Defects are common in software systems. But they will show adverse effects on the use of the application. Sometimes these defects will lead to software failures. Using software fault-prone classification models will reduce software failures. And more companies have to spend most of the budget in the testing phase only. So, software engineers should check the module which has a defect to reduce the cost. This model leverages deep learning techniques to classify the modules into faulty and non-faulty modules using learning automata.
+
+An overview of the learning automata-based deep learning model is shown in Figure 3.1 The proposed approach is divided into two phases: training the learning automata-based deep learning model (i.e.,LADNN model) and classifying the new software modules into fault-prone modules based on the trained model. To classify a software module into fault-prone module, we perform the following key steps.
+- First, we collect datasets containing software metrics.
+- Second, we perform data preprocessing techniques (data log transformation and data min-max normalization) on the given software metrics.
+- Third, in the training phase, we train a specially designed learning automata-based deep learning model to classify a software module as fault-prone or not fault-prone.
+- Finally, in the testing phase, we perform the data preprocessing techniques on new software module metrics and then this preprocessed data is as input to the trained model to classify the software module as faultproneor not fault-prone.
